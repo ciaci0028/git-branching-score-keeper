@@ -1,5 +1,6 @@
 body {
-  font-family: sans-serif;
+  font-family: fantasy;
+  font-size: 40px;
 }
 
 #main_content {
@@ -12,15 +13,24 @@ header {
 }
 
 .team {
-  width: 50%;
+  width: 400px;
   height: 200px;
+  margin: 30px;
   float: left;
+  text-align: center;
+  font-size: 30px;
 }
 
 .team1 {
   background-color: rgb(141, 52, 52);
+  margin-left: 300px;
 }
 
 .team2 {
   background-color: rgb(133, 63, 133);
+  margin-right: 250px;
+}
+
+footer {
+  text-align: center;
 }
